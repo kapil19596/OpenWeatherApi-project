@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+
+<section id="section">
+    <div class="section">
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search your City" aria-label="Recipient's username" aria-describedby="button-addon2" id="input">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+          </div>
+
+        <div class="sec-one d-flex flex-row justify-content-between">
+
+            <div class="sec-one-one">
+                <h1 id="city">Paris, France</h2>
+                <h5><span id="day">Wednesday</span> , <span id="time">12:00</span></h5>
+                <h5 id="weather">Cloudy</h5>
+
+                <p >
+                    <h6 style="color: rgb(64, 63, 63);">
+                        Humidity: <span id="humidity"> 85</span>%, 
+                        Wind: <span id="wind">13</span> m/sec</h6>
+                </p>
+            </div>
+
+            <div class="sec-two-one">
+                <h1> <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" id="emoji"> <span id="temp">10</span> </span><sup style="font-size: small; top: -2.5em;"><span id="cel">°C </span> | <span id="far">°F</span> </sup>
+                </h1>
+
+            </div>
+        </div>
+
+        <div class="sec-two">
+
+
+
+        </div>
+
+        <hr style="margin: 0 0 30px 0; color:rgb(60, 59, 59);">
+
+        <div class="sec-three" id="forcast">
+
+
+                <!-- first column -->
+                <!-- <div class="col-2 d-flex flex-column text-center ">
+                   
+                    <div style="font-size: 16px; color: #000; opacity: 0.5;" class="weather-forcast-date">Thu </div> 
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" width="80">
+                    
+                    <div class="weather-temp">
+
+                    <span style="font-size: 14px; font-weight: bold;" class="weather-temp-max">18</span>
+                    <span style="font-size: 14px; opacity: 0.5;" class="weather-temp-min">12</span>
+                    </div>
+                    
+                </div> -->
+                <!-- column end -->
+
+        </div>
+
+    </div>
+    <p><a style="text-decoration: none; color:blue;" href="https://github.com/kapil19596/OpenWeatherApi-project" target="_blank">Open-Source code </a> by Kapil Kumar Yadav</p>
+   
+</section>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,8 +1,6 @@
 
 # Weather Forecast Project ⛅🌞
 
-<p align="center"><img width="613" alt="image" src="https://github.com/kapil19596/OpenWeatherApi-project/assets/77205923/388f477c-f5f2-4439-a94b-ce4a7b01e7f8"></p>
-
 Weather Project is a web application that allows users to retrieve weather forecast data for different cities. It provides real-time weather information, including current temperature, humidity, wind speed, and a 7-day weather forecast.
 
 ## Table of Contents
@@ -19,10 +17,9 @@ The project was created to provide users with a quick and easy way to access wea
 
 ## Demo
 
-<p align="center"> <img width="647" alt="image" src="https://github.com/kapil19596/OpenWeatherApi-project/assets/77205923/fc5894fb-5f9f-4ffb-b1de-b2f26bc8480d">
  </p>
 
-You can try the live demo of Weather Project by visiting [here](https://rainbow-paprenjak-6e72f6.netlify.app/)
+You can try the live demo of Weather Project by visiting [here](https://kapil19596.github.io/OpenWeatherApi-project/)
 
 ## Features
 

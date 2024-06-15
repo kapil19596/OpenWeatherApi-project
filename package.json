@@ -1,6 +1,8 @@
 {
-  "name": "OpenWeatherApi",
-  "version": "1.0.0",
+  "name": "openweatherapi",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://kapil19596.github.io/OpenWeatherApi-project",
   "scripts": {
     "deploy": "gh-pages -d .",
     "gh-pages": "^6.1.1"
